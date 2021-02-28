@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+#parent {
+  width: 60%;
+  height: 40%;
+  display: inline-grid;
+  margin-top: 15%;
+  background-color: rgb(227, 240, 169);
+
+}
+
+.imgDiv {
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  display: none;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #82da50;
+  color: black;
+  margin-left: 10%;
+}
+
+.next {
+  background-color: #82da50;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
+#buttonDiv{
+  position: relative;
+}
+#pause {
+  position: absolute;
+  left: 41%
+}
+#pagesDiv{
+  display: flex;
+  justify-content: center;
+}
+.pages {
+  border-radius: 50%;
+  border: black solid 1px;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+}
+#page2{
+  margin: 0 8px 0 8px
+}
+.pageStyle {
+  background-color: rgb(233, 58, 58);
+}
