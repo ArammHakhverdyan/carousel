@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+  <a href="#" class="previous round" onclick="button(-1)">&#8249;</a>
+        <div id="parent">
+          <div class="imgDiv">
+        <img src="/one.png" alt="1" class="img" id="img1">
+      </div>
+        <div class="imgDiv">
+        <img src="/two.png" alt="2" class="img" id="img2">
+      </div>
+        <div class="imgDiv">
+        <img src="/three.png" alt="3" class="img" id="img3">
+      </div>
+      <div id="pagesDiv">
+        <div class="pages" id="page1" onclick="navigation(1)"></div>
+        <div class="pages" id="page2" onclick="navigation(2)"></div>
+        <div class="pages" id="page3" onclick="navigation(3)"></div>
+      </div>
+      </div>
+      <a href="#" class="next round" onclick="button(1)">&#8250;</a>
+      <div id="buttonDiv">
+      <button type="button" class="btn btn-info" id="pause">Pause</button>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
